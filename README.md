@@ -18,8 +18,11 @@ make
 
 |ファイル名|説明|
 |---|---|
-|Makefile|`make`によって実行されるコマンドが書かれたファイル |
-|jecon.bst|日本語文献を引用するときによく使われるスタイルファイル（[jecon.bst: 経済学用BibTeXスタイルファイル](http://shirotakeda.org/ja/tex-ja/jecon-ja.html#_3)）|
-|references.bib| BibTeX 形式の引用文献を追加していくファイル|
-|sample.tex| 執筆に用いる原稿 |
+|`Makefile`|`make`によって実行されるコマンドが書かれたファイル |
+|`jecon.bst`|日本語文献を引用するときによく使われるスタイルファイル（[jecon.bst: 経済学用BibTeXスタイルファイル](http://shirotakeda.org/ja/tex-ja/jecon-ja.html#_3)）|
+|`references.bib`| BibTeX 形式の引用文献を追加していくファイル|
+|`sample.tex`| 執筆に用いる原稿 |
 
+## 補足情報
+
+GitHub に push するごとに GitHub Action 上でビルドが走ります。
