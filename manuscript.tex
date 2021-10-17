@@ -1,6 +1,7 @@
 \documentclass[dvipdfmx, 11pt, a4paper]{jsbook}
 
 \usepackage{blindtext}
+\usepackage[dvipdfmx]{graphicx}
 \usepackage{natbib}
 
 \newcounter{descriptcount}
@@ -48,6 +49,16 @@
   \item[texttt{\textbackslash citealp}]\citealp{doe2021-my-excelent}
 \end{description}
 
+\clearpage
+
+\subsection{図の挿入}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.3]{figs/pets.jpg}
+\caption{Cute pets}
+\label{fig:pets}
+\end{figure}
 
 
 \section{piyo}

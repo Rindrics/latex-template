@@ -4,7 +4,7 @@ PROJ = proj  # enter project name
 all: build
 
 .PHONY: build
-build: *.tex
+build: *.tex figs/
 	docker container run --name $$(basename ${PWD}) --rm -v $${PWD}:/data thubo/latexmk -outdir=build -silent -time -jobname=${PROJ} -pvc -view=none *.tex
 
 .PHONY: clean
